@@ -24,8 +24,15 @@ class Second extends React.Component {
           <ul>{list}</ul>
           <select>
                     <option value="New York">New York</option>
-                    <option value="San Francisco" selected>Volvo</option>
-                    <option value="Chicago">Fiat</option>
+                    <option value="San Francisco" selected>San Francisco</option>
+                    <option value="Los Angeles">Los Angeles</option>
+                    <option value="Houston">Houston</option>
+                    <option value="Chicago">Chicago</option>
+                    <option value="Chicago">Chicago</option>
+                    <option value="Chicago">Chicago</option>
+                    <option value="Chicago">Chicago</option>
+                    <option value="Chicago">Chicago</option>
+                    <option value="Chicago">Chicago</option>
                 </select>
         </div>)
     }

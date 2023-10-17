@@ -38,6 +38,8 @@ function App() {
     <>
 
             <MyTable/>
+            <First/>
+            <Second/>
   
     </>
   )
