@@ -22,18 +22,7 @@ class Second extends React.Component {
       return (<div>
         <input value={this.state.input} type="text" onChange={this.onChangeHandler.bind(this)}/>
           <ul>{list}</ul>
-          <select>
-                    <option value="New York">New York</option>
-                    <option value="San Francisco" selected>San Francisco</option>
-                    <option value="Los Angeles">Los Angeles</option>
-                    <option value="Houston">Houston</option>
-                    <option value="Chicago">Chicago</option>
-                    <option value="Chicago">Chicago</option>
-                    <option value="Chicago">Chicago</option>
-                    <option value="Chicago">Chicago</option>
-                    <option value="Chicago">Chicago</option>
-                    <option value="Chicago">Chicago</option>
-                </select>
+        
         </div>)
     }
   }

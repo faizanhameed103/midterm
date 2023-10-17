@@ -5,6 +5,8 @@ import './App.css'
 import First from './First'
 import Second from './Second'
 import MyTable from './MyTable'
+import Third from './Third'
+import Fourth from './Fourth'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -40,6 +42,8 @@ function App() {
             <MyTable/>
             <First/>
             <Second/>
+            <Third/>  
+            <Fourth/>
   
     </>
   )
