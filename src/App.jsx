@@ -44,6 +44,9 @@ function App() {
             <Second/>
             <Third/>  
             <Fourth/>
+            <form>
+              <button type='Submit'>Reset</button>
+            </form>
   
     </>
   )
