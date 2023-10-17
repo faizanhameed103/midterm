@@ -2,6 +2,9 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import First from './First'
+import Second from './Second'
+import MyTable from './MyTable'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -23,38 +26,19 @@ function App() {
   
     { id: 8, name: 'Grace Taylor', age: 45, city: 'Boston', occupation: 'Lawyer' },
   
-    { id: 9, name: 'Henry Clark', age: 28, city: 'Denver', occupation: 'Marketing Manager' },
+    { id: 9, name: 'Eva Davis', age: 28, city: 'Denver', occupation: 'Marketing Manager' },
   
     { id: 10, name: 'Ivy Adams', age: 33, city: 'Atlanta', occupation: 'Entrepreneur' },
   
   ];
   
-  
+  const [name,setName] = useState()
 
   return (
     <>
-     <div >
-            <table>
-                <tr>
-                    <th>id</th>
-                    <th>Name</th>
-                    <th>Age</th>
-                    <th>city</th>
-                    <th>occupation</th>
-                </tr>
-                {sampleData.map((val, key) => {
-                    return (
-                        <tr key={key}>
-                            <td>{val.id}</td>
-                            <td>{val.name}</td>
-                            <td>{val.age}</td>
-                            <td>{val.city}</td>
-                            <td>{val.occupation}</td>
-                        </tr>
-                    )
-                })}
-            </table>
-        </div>
+
+            <MyTable/>
+  
     </>
   )
 }
